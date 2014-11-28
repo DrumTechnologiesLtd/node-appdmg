@@ -1,10 +1,13 @@
 {
   "name": "appdmg",
-  "version": "0.2.2",
+  "version": "0.2.2-nd",
   "license": "MIT",
   "author": "Linus Unnebäck <linus@folkdatorn.se>",
   "bin": "bin/appdmg",
   "main": "index.js",
+  "publishConfig": {
+    "registry": " http://hmon:4873/"
+  },
   "preferGlobal": true,
   "dependencies": {
     "temp": "~0.7.0",
